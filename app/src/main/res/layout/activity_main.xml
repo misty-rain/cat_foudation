@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:clearedit="http://schemas.android.com/apk/lib/com.friendtime.foundation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.friendtimes.ft_foundation_demo.MainActivity">
+
+    <com.friendtime.foundation.widget.ClearEditText
+        android:id="@+id/bjmgf_sdk_account_login_nameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:hint="请输入"
+        android:textColor="@color/ft_foundation_sdk_black"
+        android:textSize="14dp"
+        android:textColorHint="@color/ft_foundation_sdk_navigation_background"
+        android:imeOptions="flagNoExtractUi"
+        android:inputType="text"
+        clearedit:clear_src="@drawable/ft_foundation_sdk_button_gray_close"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        clearedit:warn_title="哈哈哈" />
+
+</RelativeLayout>

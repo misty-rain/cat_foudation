@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <declare-styleable name="ft_foundation_sdk_clearEdit">
+		<attr name="foundation_clear_src" format="reference"/>
+		<attr name="foundation_warn_title" format="string"/>
+	</declare-styleable>
+	
+
+	
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ft_foundation_sdk_question_image_pick_error">您选择的图片出错，请更换一张</string>
+    <string name="ft_foundation_sdk_dataSubmitingStr">请稍候&#8230; &#8230;</string>
+    <string name="ft_foundation_sdk_open_webview">请打开页面</string>
+    <string name="ft_foundation_sdk_photo_exception_hint">请您添加照片到图库</string>
+    <string name="ft_foundation_sdk_floatWindow_accountManager_info">个人信息</string>
+    <string name="ft_foundation_sdk_finish">保存</string>
+    <string name="ft_foundation_sdk_register_screenshot_tips_str">账号截图已保存至相册</string>
+    <string name="ft_foundation_sdk_get_sdcard_error_tips_str">获取sd卡错误</string>
+
+
+
+
+
+
+
+</resources>
